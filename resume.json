@@ -35,8 +35,7 @@
         "Provided Gitlab CI/CD Pipeline support and workshops for developers to assist with migrating away from Jenkins"
       ],
       "summary": "Responsible for the creation, deployment and management of internal development tools and the platforms they run on.\n\nOur team focuses on high availability of the services and platforms we manage by utilizing IaC tools like Terraform, Packer and Ansible.\n\nTo facilitate deployment of internal tooling, we leverage the full Hashistack which includes Vault, Consul and Nomad High-Availability clusters which are deployed using custom Terraform Modules onto an On-Prem Openstack cluster.",
-      "url": "https://cpanel.net/company/",
-      "location": "Houston, Texas Area"
+      "url": "https://cpanel.net/company/"
     },
     {
       "company": "cPanel",
@@ -45,8 +44,7 @@
       "endDate": "2019-09-30",
       "highlights": [],
       "summary": "Provide direct support to cPanel customers including remote live server troubleshooting",
-      "url": "https://cpanel.net/company/",
-      "location": "Houston, Texas"
+      "url": "https://cpanel.net/company/"
     },
     {
       "company": "UTMB",
@@ -62,8 +60,7 @@
         "Medical research hardware/software installation"
       ],
       "summary": "Provide onsite and remote support to the UTMB Galveston campus",
-      "url": "https://www.utmb.edu/it-services",
-      "location": "Galveston, TX"
+      "url": "https://www.utmb.edu/it-services"      
     }
   ],
   "certificates": [{
