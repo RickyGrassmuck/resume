@@ -30,7 +30,6 @@
       "name": "cPanel",
       "position": "DevOps Engineer",
       "startDate": "2019-09-30",
-      "endDate": "",
       "highlights": [],
       "summary": "Responsible for the creation, deployment and management of internal development tools and the platforms they run on.\n\nOur team focuses on high availability of the services and platforms we manage by utilizing IaC tools like Terraform, Packer and Ansible.\n\nTo facilitate deployment of internal tooling, we leverage the full Hashistack which includes Vault, Consul and Nomad High-Availability clusters which are deployed using custom Terraform Modules onto an On-Prem Openstack cluster.",
       "url": "https://cpanel.net/company/",
