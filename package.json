@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "install": "npm install jsonresume-theme-onepage-plus",
+    "build-pdf": "npm run install && resume export --theme $PWD/node_modules/jsonresume-theme-onepage-plus --format pdf resume.pdf",
+    "build-html": "npm run install && resume export --theme $PWD/node_modules/jsonresume-theme-onepage-plus --format html index.html",
+    "serve": "npm run install && resume serve --theme $PWD/node_modules/jsonresume-theme-onepage-plus"
+  },
+  "dependencies": {
+    "jsonresume-theme-onepage-plus": "^1.0.1",
+    "resume-cli": "^3.0.5"
+  }
+}

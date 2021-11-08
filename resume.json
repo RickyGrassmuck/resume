@@ -1,0 +1,119 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Ricky Grassmuck",
+    "label": "DevOps Engineer at cPanel",
+    "image": "",
+    "email": "ricky.grassmuck@gmail.com",
+    "phone": "3466174108",
+    "url": "https://github.com/rigrassm",
+    "summary": "Doing some DevOps. Nomad > K8s, don't @ me!",
+    "location": {
+      "countryCode": "US",
+      "address": "12431 FM 1764 RD"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "ACoAAA2KjZMBX_cw95__W94_N-Pj2g9LT5yVf38",
+        "url": "https://linkedin.com/in/rickygrassmuck"
+      },
+      {
+        "url": "https://github.com/rigrassm",
+        "username": "rigrassm",
+        "network": "Github"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "cPanel",
+      "position": "DevOps Engineer",
+      "startDate": "2019-09-30",
+      "endDate": "",
+      "highlights": [],
+      "summary": "Responsible for the creation, deployment and management of internal development tools and the platforms they run on.\n\nOur team focuses on high availability of the services and platforms we manage by utilizing IaC tools like Terraform, Packer and Ansible.\n\nTo facilitate deployment of internal tooling, we leverage the full Hashistack which includes Vault, Consul and Nomad High-Availability clusters which are deployed using custom Terraform Modules onto an On-Prem Openstack cluster.",
+      "url": "https://cpanel.net/company/",
+      "location": "Houston, Texas Area"
+    },
+    {
+      "name": "cPanel",
+      "position": "Linux Technical Analyst",
+      "startDate": "2016-07-31",
+      "endDate": "2019-09-30",
+      "highlights": [],
+      "summary": "Provide technical support for multiple Linux distributions running cPanel software.",
+      "url": "https://cpanel.net/company/",
+      "location": "Houston, Texas"
+    },
+    {
+      "name": "UTMB",
+      "position": "IS Support",
+      "startDate": "2015-03-31",
+      "endDate": "2016-07-31",
+      "highlights": [],
+      "summary": "Provide onsite and remote support to the UTMB Galveston campus. \nResponsibilities include:\nNew system deployments\nSystem refreshes\nDesktop/laptop troubleshooting and repair\nTroubleshooting network/vpn connectivity issues\nApple product support\nVirtual Machine configurations(VirtualBox, Parallels, VmWare)\nMedical research hardware/software installation\n",
+      "url": "https://www.utmb.edu/it-services",
+      "location": "Clear Lake, TX"
+    }
+  ],
+  "volunteer": [],
+  "education": [],
+  "awards": [],
+  "certificates": [{
+    "name": "HashiCorp Certified: Vault Associate",
+    "url": "https://www.credly.com/badges/3665d60f-6a11-4fef-9742-1a592ce22541/public_url",
+    "date": "2021-01-05",
+    "issuer": "HashiCorp"
+  }],
+  "publications": [],
+  "skills": [
+    {
+      "name": "DevOps",
+      "level": "Senior",
+      "keywords": ["Gitlab CI/CD", "Openstack", "Digital Ocean", "Vault", "Consul"]
+    },
+    {
+      "name": "Job Orchestration",
+      "level": "Senior",
+      "keywords": ["Nomad", "Containers", "Docker", "Podman", "Packer"]
+    },
+    {
+      "name": "Configuration Management",
+      "level": "Senior",
+      "keywords": ["Ansible", "Terraform"]
+    },
+    {
+      "name": "Backend Development",
+      "level": "Intermediate",
+      "keywords": ["Go", "Python"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Open Source"
+    },
+    {
+      "name": "IoT/Embedded Hacking"
+    },
+    {
+      "name": "Gaming"
+    },
+    {
+      "name": "Rocketry and Space Technology"
+    }
+  ],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
+    "theme": "paper"
+  }
+}
