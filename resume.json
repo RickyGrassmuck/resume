@@ -26,7 +26,7 @@
   },
   "work": [
     {
-      "name": "cPanel",
+      "company": "cPanel",
       "position": "DevOps Engineer",
       "startDate": "2019-09-30",
       "highlights": [
@@ -39,7 +39,7 @@
       "location": "Houston, Texas Area"
     },
     {
-      "name": "cPanel",
+      "company": "cPanel",
       "position": "Linux Technical Analyst",
       "startDate": "2016-07-31",
       "endDate": "2019-09-30",
@@ -49,7 +49,7 @@
       "location": "Houston, Texas"
     },
     {
-      "name": "UTMB",
+      "company": "UTMB",
       "position": "IS Support",
       "startDate": "2015-03-31",
       "endDate": "2016-07-31",
