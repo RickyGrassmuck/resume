@@ -5,7 +5,7 @@
     "label": "DevOps Engineer at cPanel",
     "email": "ricky.grassmuck@gmail.com",
     "phone": "+1 (346) 617-4108",
-    "url": "https://github.com/rigrassm",
+    "url": "https://github.com/RickyGrassmuck",
     "summary": "Actively promoting the Cult of DevOps and attempting to automate all the things.",
     "location": {
       "countryCode": "US",
@@ -52,10 +52,8 @@
       "startDate": "2015-03-31",
       "endDate": "2016-07-31",
       "highlights": [
-        "New system deployments",
         "Desktop/laptop troubleshooting and repair",
         "Troubleshooting network/vpn connectivity issues",
-        "Apple product support",
         "Virtual Machine configurations(VirtualBox, Parallels, VmWare)",
         "Medical research hardware/software installation"
       ],
@@ -66,6 +64,12 @@
   "certificates": [{
     "name": "HashiCorp Certified: Vault Associate",
     "url": "https://www.credly.com/badges/3665d60f-6a11-4fef-9742-1a592ce22541/public_url",
+    "date": "2021-01-05",
+    "issuer": "HashiCorp"
+  },
+  {
+    "name": "HashiCorp Certified: Vault Associate",
+    "url": "https://www.credly.com/badges/042ff6bd-2d18-4b2a-be8c-58b864383c6d/public_url",
     "date": "2021-01-05",
     "issuer": "HashiCorp"
   }],
