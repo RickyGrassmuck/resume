@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Ricky Grassmuck",
-    "label": "DevOps Engineer at cPanel",
-    "email": "ricky.grassmuck@gmail.com",
+    "label": "DevOps Engineer II at cPanel",
+    "email": "ricky@devoops.guru",
     "phone": "+1 (346) 617-4108",
     "url": "https://github.com/RickyGrassmuck",
-    "summary": "Actively promoting the Cult of DevOps and attempting to automate all the things.",
+    "summary": "Attempting to automate all the things.",
     "location": {
       "countryCode": "US",
       "address": "Houston, TX"
@@ -18,8 +18,8 @@
         "url": "https://linkedin.com/in/rickygrassmuck"
       },
       {
-        "url": "https://github.com/rigrassm",
-        "username": "rigrassm",
+        "url": "https://github.com/RickyGrassmuck",
+        "username": "RickyGrassmuck",
         "network": "Github"
       }
     ]
@@ -52,10 +52,8 @@
       "startDate": "2015-03-31",
       "endDate": "2016-07-31",
       "highlights": [
-        "Desktop/laptop troubleshooting and repair",
         "Troubleshooting network/vpn connectivity issues",
-        "Virtual Machine configurations(VirtualBox, Parallels, VmWare)",
-        "Medical research hardware/software installation"
+        "Virtual Machine configurations(VirtualBox, Parallels, VmWare)"
       ],
       "summary": "Provide onsite and remote support to the UTMB Galveston campus",
       "url": "https://www.utmb.edu/it-services"      
@@ -68,7 +66,7 @@
     "issuer": "HashiCorp"
   },
   {
-    "name": "HashiCorp Certified: Vault Associate",
+    "name": "HashiCorp Certified: Consul Associate",
     "url": "https://www.credly.com/badges/042ff6bd-2d18-4b2a-be8c-58b864383c6d/public_url",
     "date": "2021-01-05",
     "issuer": "HashiCorp"
