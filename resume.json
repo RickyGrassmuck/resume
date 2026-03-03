@@ -29,7 +29,7 @@
       "company": "cPanel",
       "position": "DevOps Engineer",
       "startDate": "2019-09-30",
-      "endDate": "2026-01-13"
+      "endDate": "2026-01-13",
       "highlights": [
         "Created and maintained the system for generating VM images with the product installed for QA testing and Tech support.",
         "Deployed and managed Vault, Consul, and Nomad clusters for internal production use",
