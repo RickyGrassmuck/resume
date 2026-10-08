@@ -1,22 +1,12 @@
 {
   "scripts": {
-    "install": "npm install jsonresume-theme-onepage-plus",
-    "build-pdf": "npm run install && resume export --theme $PWD/node_modules/jsonresume-theme-onepage-plus --format pdf resume.pdf",
-    "build-html": "npm run install && resume export --theme $PWD/node_modules/jsonresume-theme-onepage-plus --format html index.html",
-    "serve": "npm run install && resume serve --theme $PWD/node_modules/jsonresume-theme-onepage-plus"
+    "build-html": "resume export --theme ./theme index.html",
+    "build-pdf": "resume export --theme ./theme resume.pdf",
+    "validate": "resume validate",
+    "serve": "resume serve --theme ./theme"
   },
   "dependencies": {
-    "@anthonyjdella/jsonresume-theme-anthonyjdella-stackoverflow": "^1.0.0",
-    "jsonresume-theme-elite": "^1.2.0",
-    "jsonresume-theme-even": "^0.16.1",
-    "jsonresume-theme-full": "^0.0.4",
-    "jsonresume-theme-material": "^1.3.1",
-    "jsonresume-theme-modern": "^0.0.18",
-    "jsonresume-theme-onepage-plus": "^1.0.1",
-    "jsonresume-theme-onepage-updated": "^1.0.3",
-    "jsonresume-theme-slickoverflow": "^0.0.2",
-    "jsonresume-theme-stackoverflow": "^1.4.0",
-    "jsonresume-theme-straightforward-certs": "^0.1.1",
-    "resume-cli": "^3.0.5"
+    "handlebars": "^4.7.10",
+    "resume-cli": "^3.7.3"
   }
 }
