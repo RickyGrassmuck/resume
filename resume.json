@@ -2,14 +2,15 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Ricky Grassmuck",
-    "label": "DevOps Engineer II at cPanel",
+    "label": "DevOps Engineer",
     "email": "ricky@devoops.guru",
     "phone": "+1 (346) 617-4108",
     "url": "https://github.com/RickyGrassmuck",
-    "summary": "Attempting to automate all the things.",
+    "summary": "DevOps engineer with 9+ years of Linux experience, from Tier 2 support on live production servers to designing and operating highly available HashiCorp Vault, Consul, and Nomad platforms. Focused on infrastructure as code, CI/CD, and Go tooling for developers.",
     "location": {
       "countryCode": "US",
-      "address": "Houston, TX"
+      "city": "Houston",
+      "region": "TX"
     },
     "profiles": [
       {
@@ -20,82 +21,116 @@
       {
         "url": "https://github.com/RickyGrassmuck",
         "username": "RickyGrassmuck",
-        "network": "Github"
+        "network": "GitHub"
       }
     ]
   },
   "work": [
     {
-      "company": "cPanel",
-      "position": "DevOps Engineer",
+      "name": "cPanel",
+      "position": "DevOps Engineer II (promoted from DevOps Engineer, 2022)",
       "startDate": "2019-09-30",
       "endDate": "2026-01-13",
       "highlights": [
-        "Created and maintained the system for generating VM images with the product installed for QA testing and Tech support.",
-        "Deployed and managed Vault, Consul, and Nomad clusters for internal production use",
-        "Member of the team that migrated the companies Product Development unit from Bitbucket to on-prem Gitlab and later from Gitlab to Github Enterprise",
-        "Converted and rearchitected Gitlab pipelines to Github workflows",
-        "Served as a company-wide SME for Gitlab/Github CI/CD Pipelines and provided support and workshops for developers",
-        "Created and maintained several different CLI and Web API tools (primarily in Go) that were used by other production systems as well as product developers"
+        "Designed, deployed, and operated highly available Vault, Consul, and Nomad clusters on on-prem OpenStack, hosting 50+ internal production services",
+        "Core engineer on the team that planned and executed the migration of 1,000+ Product Development repositories from Bitbucket to self-hosted GitLab, and later to GitHub Enterprise",
+        "Re-architected GitLab CI pipelines as GitHub Actions workflows during the GitHub Enterprise migration",
+        "Built and maintained an automated, CI-driven VM image pipeline (Packer, Ansible, OpenStack) that produced cPanel-installed images for QA testing and Technical Support",
+        "Designed and built a Go image-build API that gave client applications a single interface for requesting builds and routed webhook integrations with other internal services. This decoupled clients from the build backend, so new backends could be developed and tested alongside production without client changes",
+        "Developed Go CLIs, service APIs, and CI/CD tooling used by product developers, with integrations into Vault, Consul, Nomad, and OpenStack",
+        "Served as the company-wide subject-matter expert for GitLab CI and GitHub Actions, supporting developers and leading workshops on pipeline design"
       ],
-      "summary": "Responsible for the creation, deployment and management of internal development tools and the platforms they run on.\n\nOur team focuses on high availability of the services and platforms we manage by utilizing IaC tools like Terraform, Packer and Ansible.\n\nTo facilitate deployment of internal tooling, we leverage the full Hashistack which includes Vault, Consul and Nomad High-Availability clusters which are deployed using custom Terraform Modules onto an On-Prem Openstack cluster.",
+      "summary": "Built, deployed, and operated internal developer tooling and the platforms it ran on for cPanel's Product Development organization. Ran highly available HashiCorp Vault, Consul, and Nomad clusters on an on-prem OpenStack cloud, provisioned entirely as code with custom Terraform modules, Packer, and Ansible.",
       "url": "https://cpanel.net/company/"
     },
     {
-      "company": "cPanel",
+      "name": "cPanel",
       "position": "Linux Technical Analyst",
       "startDate": "2016-07-31",
       "endDate": "2019-09-30",
-      "highlights": [],
-      "summary": "Provide direct support to cPanel customers including remote live server troubleshooting",
+      "highlights": [
+        "Troubleshot live customer servers across the full hosting stack: Apache/LiteSpeed/Nginx and PHP, Exim/Dovecot mail, MySQL/MariaDB, and BIND/PowerDNS",
+        "Diagnosed OS-level performance, filesystem, and security issues, including investigating and remediating compromised servers",
+        "Wrote scripts to automate common diagnostics and fixes, reducing time spent on repetitive tickets",
+        "Reproduced product defects and escalated them to development with detailed bug reports",
+        "Mentored new analysts and wrote internal knowledge-base articles"
+      ],
+      "summary": "Provided Tier 2 technical support to cPanel & WHM customers, diagnosing and resolving issues directly on live production Linux servers.",
       "url": "https://cpanel.net/company/"
     },
     {
-      "company": "UTMB",
-      "position": "IS Support",
+      "name": "UTMB",
+      "position": "IS Support Technician",
       "startDate": "2015-03-31",
       "endDate": "2016-07-31",
       "highlights": [
-        "Troubleshooting network/vpn connectivity issues",
-        "Virtual Machine configurations(VirtualBox, Parallels, VmWare)",
-        "Provide campus-wide desktop support for University desktops and laptops"
+        "Provided first-line support for Epic EHR issues affecting clinical and hospital staff",
+        "Imaged, deployed, and repaired university-managed Windows, macOS, and Linux desktops and laptops",
+        "Diagnosed and resolved network and VPN connectivity issues for on-site and remote users",
+        "Configured and supported virtual machines (VirtualBox, Parallels, VMware) for faculty and research users"
       ],
-      "summary": "Provide onsite and remote support to the UTMB Galveston campus",
-      "url": "https://www.utmb.edu/it-services"      
+      "summary": "Provided on-site and remote IT support for faculty, staff, clinical, and research users across UTMB's Galveston campus.",
+      "url": "https://www.utmb.edu/it-services"
     }
   ],
-  "certificates": [{
-    "name": "HashiCorp Certified: Vault Associate",
-    "url": "https://www.credly.com/badges/3665d60f-6a11-4fef-9742-1a592ce22541/public_url",
-    "date": "2021-01-05",
-    "issuer": "HashiCorp"
-  },
-  {
-    "name": "HashiCorp Certified: Consul Associate",
-    "url": "https://www.credly.com/badges/042ff6bd-2d18-4b2a-be8c-58b864383c6d/public_url",
-    "date": "2021-01-05",
-    "issuer": "HashiCorp"
-  }],
+  "certificates": [
+    {
+      "name": "HashiCorp Certified: Vault Associate",
+      "url": "https://www.credly.com/badges/3665d60f-6a11-4fef-9742-1a592ce22541/public_url",
+      "date": "2021-01-05",
+      "issuer": "HashiCorp"
+    },
+    {
+      "name": "HashiCorp Certified: Consul Associate",
+      "url": "https://www.credly.com/badges/042ff6bd-2d18-4b2a-be8c-58b864383c6d/public_url",
+      "date": "2021-01-05",
+      "issuer": "HashiCorp"
+    }
+  ],
   "skills": [
     {
-      "name": "DevOps",
+      "name": "Infrastructure as Code",
       "level": "Advanced",
-      "keywords": ["Gitlab CI/CD", "Openstack", "Digital Ocean", "Vault", "Consul"]
+      "keywords": [
+        "Terraform",
+        "Packer",
+        "Ansible"
+      ]
     },
     {
-      "name": "Job Orchestration",
+      "name": "HashiCorp Platform",
       "level": "Advanced",
-      "keywords": ["Nomad", "Containers", "Docker", "Podman", "Packer"]
+      "keywords": [
+        "Vault",
+        "Consul",
+        "Nomad"
+      ]
     },
     {
-      "name": "Configuration Management",
+      "name": "CI/CD",
       "level": "Advanced",
-      "keywords": ["Ansible", "Terraform"]
+      "keywords": [
+        "GitHub Actions",
+        "GitLab CI/CD"
+      ]
+    },
+    {
+      "name": "Cloud & Containers",
+      "level": "Advanced",
+      "keywords": [
+        "OpenStack",
+        "DigitalOcean",
+        "Docker",
+        "Podman"
+      ]
     },
     {
       "name": "Backend Development",
       "level": "Intermediate",
-      "keywords": ["Go", "Python"]
+      "keywords": [
+        "Go",
+        "Python"
+      ]
     }
   ],
   "languages": [
